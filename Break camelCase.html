@@ -1,11 +1,12 @@
 <script>
 
 function solution(s) {
-  let u =/[A-Z]/;
-  if (s.search(u)){
-    result=s.splice(s.indexOf(u),0,' ')
-  }
-  return result; 
+for(let i in s){
+  if (s.charCodeAt(i)>=65 && s.charCodeAt(i)<=90){
+    
+  } 
 }
-
+console.log(s);
+}
+solution("cameCamel")
 </script>
