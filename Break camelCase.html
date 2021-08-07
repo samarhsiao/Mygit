@@ -1,5 +1,5 @@
 <script>
-
+//solution1
 function solution(s) {
   let result='';
 for(let i=0;i<s.length;i++){ 
@@ -11,4 +11,12 @@ for(let i=0;i<s.length;i++){
 }
 return result;
 }
+
+//solution2
+function solution(string) {
+  return(string.replace(/([A-Z])/g, ' $1'));
+}
+// /g 表示該表達式可以進行全局匹配。不加入/g，只返回第一个匹配，如果加入g，就會進行全局匹配，所有字串都會被搜尋到並進行匹配。
+// $1表示配對的第一個結果，而這個例子只有一個配對條件。
+
 </script>
