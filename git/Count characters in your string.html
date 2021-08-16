@@ -1,0 +1,21 @@
+  <script>
+    Array.prototype.count = function(el){
+      let ct = 0;//使用const會出錯
+      this.forEach(element => {
+        if (element === el){
+          ct += 1
+        }
+      });
+      return ct;
+    }
+    function count (string) {
+    // The function code should be here
+    var res = {};
+    ar1 = string.split('');
+    for(let i of ar1){
+     num = ar1.count(i);
+     res[i]=num;//i為字串所以沒辦法利用res.i=num來新增key跟value
+    }
+    return res;
+    }
+  </script>
