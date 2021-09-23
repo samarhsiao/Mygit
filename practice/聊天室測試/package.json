@@ -1,0 +1,16 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "chatroom dev",
+  "main": "app.js",
+  "scripts": {
+    "test": "samar",
+    "dev": "nodemon app.js"
+  },
+  "author": "samar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.2"
+  }
+}
